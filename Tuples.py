@@ -34,7 +34,7 @@ print(tmp)
 tmp = sorted(tmp, reverse=True)    # the 2nd iterator means we will be going reverse from upper to lower i.e decreasing
 print(tmp)
 
-""" # now the same problem of top 10 most common words using tuples 
+""" now the same problem of top 10 most common words using tuples 
 romeo.txt = open("romeo.txt")
 counts = dict()
 for line in romeo.txt:
